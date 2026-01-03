@@ -1,6 +1,11 @@
 import { useSelector } from "react-redux";
 
 function Home() {
+    const { products } = useSelector((state) => state.data);
+
+    const totalProducts = products.length;
+    const categories = [...new Set(products.map((p) => p.category))].length;
+
     return (
         <div className="space-y-6">
 
@@ -20,6 +25,43 @@ function Home() {
                     className="w-4 h-4 sm:w-16 sm:h-16 md:w-20 md:h-20"
                 />
 
+            </div>
+
+            {/* Dashboard Cards */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                {/* Total Products */}
+                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center hover:shadow-lg transition">
+                    <h2 className="text-lg md:text-xl font-semibold">Total Products</h2>
+                    <p className="text-2xl md:text-3xl font-bold text-gray-800 mt-2">
+                        {totalProducts}
+                    </p>
+                </div>
+
+                {/* Categories */}
+                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center hover:shadow-lg transition">
+                    <h2 className="text-lg md:text-xl font-semibold">Categories</h2>
+                    <p className="text-2xl md:text-3xl font-bold text-gray-800 mt-2">
+                        {categories}
+                    </p>
+                </div>
+
+                {/* Active Users */}
+                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center hover:shadow-lg transition">
+                    <h2 className="text-lg md:text-xl font-semibold">Active Users</h2>
+                    <p className="text-2xl md:text-3xl font-bold text-gray-800 mt-2">
+                        230
+                    </p>
+                </div>
+            </div>
+
+            {/* Quick Info / Tips */}
+            <div className="bg-white p-6 rounded-lg shadow-md">
+                <h2 className="text-lg md:text-xl font-semibold mb-3">Tips:</h2>
+                <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm md:text-base">
+                    <li>Click on "Data" in the sidebar to view product details.</li>
+                    <li>Use the search box to filter products by title.</li>
+                    <li>Navigate through pages using the pagination buttons.</li>
+                </ul>
             </div>
         </div>
     );
