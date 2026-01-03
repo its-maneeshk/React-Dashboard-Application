@@ -1,55 +1,46 @@
-# [PROJECT NAME] 🏨
+# Getting Started with Create React App and Redux
 
-**[PROJECT NAME]** short project description about the project.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Features 🪶
+## Available Scripts
 
-| **Module**                     | **Description**                                                                                          | **Module**                   | **Description**                                 |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------- | ---------------------------- | ----------------------------------------------- |
-| **Authentication**             | Handles user login, signup, password reset, and logout operations.                                       | **Guest Management**         | Manages guest registration and information.     |
-| **Database Connectivity**      | Establishes and manages the connection between the application and the MySQL database.                   | **Admin Operations**         | Provides administrative functionalities.        |
-| **User Option Handling**       | Manages different options available to users (admin and customer).                                       | **Error Handling**           | Ensures stable application performance.         |
-| **Junction and Navigation**    | Controls navigation between different sections of the system.                                            | **Welcome and Greeting**     | Displays welcome messages and guides users.     |
-| **Main Menu**                  | Provides the main interface for user interaction.                                                        | **Logout**                   | Safely logs out users from the system.          |
+In the project directory, you can run:
 
-## User Interface
-The application features a command-line interface (CLI) that guides users through various options and operations, ensuring ease of use and accessibility for all users.
+### `npm start`
 
-# Demo Images 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Here are some screenshots demonstrating the key functionalities of **CalculatorApp**:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-| **Interface**         | **Preview** |
-|-----------------------|-------------|
-| **Login Page**         | <img src="img permanent link" width="800px"> |
-| **Dashboard**          | <img src="" width="800px"> |
-| **Add Transaction**    | <img src="" width="800px"> |
-| **Savings Goals**      | <img src="" width="800px"> |
-| **Upload CSV**         | <img src="" width="800px"> |
-| **Profile**            | <img src="" width="800px"> |
-   
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Contributing 🛂
-Contributions are welcome! If you would like to contribute to CalculatorApp, please fork the repository, create a new branch, and submit a pull request. I encourage suggestions for new features, bug fixes, and general improvements.
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<p align="center">
-  Made with ❤️ by <a href="https://www.manishpatel.com.np/" target="_blank">Manish Patel</a> | 
-  <a href="mailto:maneeshkurmii@gmail.com">Email Me</a> | 
-  <a href="https://www.linkedin.com/in/itsmaneeshk/" target="_blank">LinkedIn</a>
-</p>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Code-Java-blue?style=flat-square&logo=java" alt="Java Badge">
-  <img src="https://img.shields.io/badge/Tool-Git-orange?style=flat-square&logo=git" alt="Git Badge">
-  <img src="https://img.shields.io/badge/Project-Open%20Source-brightgreen?style=flat-square" alt="Open Source Badge">
-</p>
+### `npm run eject`
 
-<p align="center">
-  🚀 Follow my work at <a href="https://github.com/its-maneeshk" target="_blank">GitHub</a> and let's build something amazing together!
-</p>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
