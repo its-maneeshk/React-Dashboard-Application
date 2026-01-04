@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md max-w-3xl mx-auto space-y-4">
+    <div className="bg-white p-6 mt-10 rounded-lg shadow-md max-w-6xl mx-auto space-y-4">
       <h1 className="text-2xl md:text-3xl font-bold text-gray-800">About This Dashboard</h1>
       <p className="text-gray-600 text-sm md:text-base">
         This Dashboard Application is a responsive web app built using React and Redux. 
@@ -33,7 +33,7 @@ function About() {
       <div className="space-y-2">
         <h2 className="text-xl font-semibold text-gray-800">Visit Github</h2>
         <p className="text-gray-600">
-          Your Name | <a href="https://github.com/its-maneeshk/React-Dashboard-Application.git" className="text-blue-500 hover:underline">GitHub</a>
+          Visit Github and suggest improvements <a href="https://github.com/its-maneeshk/React-Dashboard-Application.git" className="text-blue-500 hover:underline">GitHub</a>
         </p>
       </div>
     </div>
