@@ -89,7 +89,7 @@ npm install
 4. Run the project:
 
 ```
-npm start
+npm run dev
 ```
 
 5. Open in browser:
