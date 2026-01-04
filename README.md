@@ -120,8 +120,9 @@ http://localhost:5173
 
 | **Interface** | **Preview** |
 |--------------|------------|
-| **Home Screen** | <img src="https://github.com/its-maneeshk/Task-Tracker-Tech-Jar-/blob/27b0fddb1c20d84b2612f8cdc3ca68b616af3b46/public/screenshot/Homescreen_screenshot.png" width="400px"> |
-| **Adding Task** | <img src="https://github.com/its-maneeshk/Task-Tracker-Tech-Jar-/blob/27b0fddb1c20d84b2612f8cdc3ca68b616af3b46/public/screenshot/Adding-Task_screenshot.png" width="400px"> |
-| **Searching Task** | <img src="https://github.com/its-maneeshk/Task-Tracker-Tech-Jar-/blob/27b0fddb1c20d84b2612f8cdc3ca68b616af3b46/public/screenshot/Searching-Task_screenshot.png" width="400px"> |
+| **Home Page** | <img src="https://github.com/its-maneeshk/React-Dashboard-Application/blob/6655ae16663e2c178618e63b84e3eb001c6d6733/public/screenshot/Dashboard-application-screenshot-Home.png" width="500px"> |
+| **Data Page** | <img src="https://github.com/its-maneeshk/React-Dashboard-Application/blob/6655ae16663e2c178618e63b84e3eb001c6d6733/public/screenshot/Dashboard-application-screenshot-Data.png" width="500px"> |
+| **Filtering Data** | <img src="https://github.com/its-maneeshk/React-Dashboard-Application/blob/6655ae16663e2c178618e63b84e3eb001c6d6733/public/screenshot/Dashboard-application-screenshot-Data-FilteringOperation.png" width="500px"> |
+| **About Page** | <img src="https://github.com/its-maneeshk/React-Dashboard-Application/blob/6655ae16663e2c178618e63b84e3eb001c6d6733/public/screenshot/Dashboard-application-screenshot-About.png" width="500px"> |
 
 ---
