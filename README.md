@@ -77,7 +77,7 @@ git clone https://github.com/its-maneeshk/React-Dashboard-Application.git
 
 2. Navigate into the project folder
 ```
-cd task-tracker
+cd React-Dashboard-Application
 ```
 
 3. Install dependencies:
