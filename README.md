@@ -36,8 +36,8 @@ and professional Git version control practices.
 
 ## API USED
 DummyJSON API
-Base URL: https://dummyjson.com/products
-Description: Provides a list of products with fields like title, category, and price.
+- Base URL: https://dummyjson.com/products
+- Description: Provides a list of products with fields like title, category, and price.
 
 ---
 
