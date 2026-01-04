@@ -16,6 +16,22 @@ function Sidebar() {
                 >
                     Home
                 </NavLink>
+                <NavLink
+                    to="/data"
+                    className={({ isActive }) =>
+                        isActive ? "bg-gray-700 text-white " + linkClass : linkClass
+                    }
+                >
+                    Data
+                </NavLink>
+                <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                        isActive ? "bg-gray-700 text-white " + linkClass : linkClass
+                    }
+                >
+                    About
+                </NavLink>
             </nav>
         </div>
     );
